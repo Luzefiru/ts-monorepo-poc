@@ -1,0 +1,17 @@
+{
+  "name": "ts-monorepo-poc",
+  "version": "1.0.0",
+  "description": "A proof of concept to setup a monorepo with multiple TypeScript projects.",
+  "main": "index.js",
+  "scripts": {
+    "client:dev": "cd client && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "client",
+    "server",
+    "shared"
+  ]
+}
